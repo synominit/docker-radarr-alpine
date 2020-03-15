@@ -14,4 +14,4 @@ script:
   - docker run -d -p 7878:7878 -v /tmp:/config docker-radarr
 
   # Curl test
-  - curl localhost:7878
+  - curl http://127.0.0.1:7878
