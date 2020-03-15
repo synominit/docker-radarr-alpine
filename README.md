@@ -22,7 +22,7 @@ This image is built on Docker Hub automatically any time the upstream OS contain
   2. Pull this image from Docker Hub: `docker pull synominit/docker-radarr-alpine`
   3. Run a container from the image:
 ```
-  docker run -d -p 8989:8989 \
+  docker run -d -p 7878:7878 \
   -v /path/to/host:/config \
   -v /path/to/host:/downloads \
   -v /path/to/host:/movies \
