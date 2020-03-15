@@ -25,7 +25,8 @@ This image is built on Docker Hub automatically any time the upstream OS contain
   docker run -d -p 7878:7878 \
   -v /path/to/host:/config \
   -v /path/to/host:/downloads \
-  -v /path/to/host:/movies
+  -v /path/to/host:/movies \
+  synominit/docker-radarr-alpine
 ```
 
 
