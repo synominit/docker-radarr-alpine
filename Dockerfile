@@ -9,7 +9,7 @@ ENV GID=63342
 
 RUN adduser \
     --disabled-password \
-    --gecos "" \
+    --shell /bin/false \
     --no-create-home \
     --uid "$UID" \
     "$USER" \
