@@ -1,6 +1,6 @@
+[![Build Status](https://travis-ci.com/synominit/docker-radarr-alpine.svg?token=UxNrdTp4uZjxLv6pUq4x&branch=master)](https://travis-ci.com/synominit/docker-radarr-alpine)
+
 # Non Privileged Minimal Radarr Docker Container using Alpine
-
-
 
 The goal of this project is to create a containerized Radarr application that will run non privileged with a minimal attack surface area  
 
