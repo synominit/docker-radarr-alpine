@@ -21,7 +21,10 @@ RUN adduser \
 && curl -o /build/radarr.tar.gz -L "https://github.com/galli-leo/Radarr/releases/download/${radarr_tag}/Radarr.develop.${radarr_tag#v}.linux.tar.gz" \
 && tar xzf /build/radarr.tar.gz -C /app/radarr --strip-components=1 \
 && rm -rf /build \
-&& chown -R "$USER" /app/radarr
+&& chown -R "$USER" /app/radarr \
+
+# Clean up
+&& apk del curl
 
 
 
