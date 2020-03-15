@@ -5,7 +5,7 @@
 The goal of this project is to create a containerized Radarr application that will run non privileged with a minimal attack surface area  
 
 ## Tags
-security radarr
+security radarr minimal
 
 ## How to Build
 
