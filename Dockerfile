@@ -32,10 +32,10 @@ RUN adduser \
 #COPY root /
 
 # Ports and Volumes
-VOLUME /config /downloads /tv
+VOLUME /config /downloads /movies
 EXPOSE 7878
 
 USER radarr
 
 CMD cd /app/radarr \
-&& mono Radarr.exe -data=/config
+&& mono --debug Radarr.exe -data=/config
