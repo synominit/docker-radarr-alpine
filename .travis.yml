@@ -1,0 +1,17 @@
+---
+services: docker
+
+before_install:
+  # Upgrade Docker.
+  - sudo apt-get update
+  - sudo apt-get -y -o Dpkg::Options::="--force-confnew" install docker-ce
+
+script:
+  # Test building Dockerfile.
+  - docker build -t docker-radarr .
+
+  # Test running the container
+  - docker run -d -p 7878:7878 -v /tmp:/config docker-radarr
+
+  # Curl test
+  - curl localhost:7878
