@@ -31,7 +31,9 @@ This image is built on Docker Hub automatically any time the upstream OS contain
 
 
 ## Notes
-This image is run as a non root user so in order to correctly map the folders to allow read and writing users will have to be created on the host specifically for this purpose.  A script will be added for ease of use, for now the following users will need to be created:
+This image is run as a non root user in order to correctly map the folders to allow read and writing.
+Users will have to be created on the host specifically for this purpose.  
+A script will be added for ease of use, for now the following command can be run on the host:
 `adduser -M --uid 72327 --no-create-home radarr`
 
 Then map the created user to the folders on the host with the appropriate permissions
