@@ -1,8 +1,8 @@
-[![Build Status](https://travis-ci.com/synominit/docker-radarr-alpine.svg?token=UxNrdTp4uZjxLv6pUq4x&branch=master)](https://travis-ci.com/synominit/docker-radarr-alpine)
+[![Docker Repository on Quay](https://quay.io/repository/synominit/docker-radarr-alpine/status "Docker Repository on Quay")](https://quay.io/repository/synominit/docker-radarr-alpine)[![Build Status](https://travis-ci.com/synominit/docker-radarr-alpine.svg?token=UxNrdTp4uZjxLv6pUq4x&branch=master)](https://travis-ci.com/synominit/docker-radarr-alpine)
 
 # Non Privileged Minimal Radarr Docker Container using Alpine
 
-The goal of this project is to create a containerized Radarr application that will run non privileged with a minimal attack surface area  
+The goal of this project is to create a containerized Radarr application that will run non privileged with a minimal attack surface area, you can check the container for any vulnerabilities by clicking on the quay.io badge above.  
 
 ## Tags
 security radarr minimal
