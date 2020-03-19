@@ -1,4 +1,4 @@
-[![Docker Repository on Quay](https://quay.io/repository/synominit/docker-radarr-alpine/status "Docker Repository on Quay")](https://quay.io/repository/synominit/docker-radarr-alpine)[![Build Status](https://travis-ci.com/synominit/docker-radarr-alpine.svg?token=UxNrdTp4uZjxLv6pUq4x&branch=master)](https://travis-ci.com/synominit/docker-radarr-alpine)
+[![Docker Repository on Quay](https://quay.io/repository/synominit/docker-radarr-alpine/status "Docker Repository on Quay")](https://quay.io/repository/synominit/docker-radarr-alpine)[![Build Status](https://travis-ci.com/synominit/docker-radarr-alpine.svg?token=UxNrdTp4uZjxLv6pUq4x&branch=master)](https://travis-ci.com/synominit/docker-radarr-alpine)[![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/synominit/docker-radarr-alpine?style=plastic)
 
 # Non Privileged Minimal Radarr Docker Container using Alpine
 
